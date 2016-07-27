@@ -1,0 +1,6 @@
+True, False = False, True
+print True, False
+print False, True
+print 2 < 3
+print 2==2
+
