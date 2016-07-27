@@ -1,0 +1,12 @@
+def istrcmp(x,y):
+	if  x == y :
+		print True
+	else:
+		print False
+
+x=raw_input()
+x=x.upper()
+y=raw_input()
+y=y.upper()
+istrcmp(x,y)
+
