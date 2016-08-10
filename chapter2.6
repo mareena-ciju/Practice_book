@@ -1,0 +1,10 @@
+def reverse(list):
+	n=len(list)
+	rev=[]
+	for i in range(n):
+		rev.append(list[n-(i+1)])
+	return rev
+r=reverse(["m","a","r","e","e","n","a"])
+print r
+s=reverse(r)
+print s
